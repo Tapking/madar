@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#fff5f7">
+
+    <title>برای مامانم ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Floating hearts -->
+    <div class="hearts" id="hearts"></div>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="logo">
+            <span class="logo-heart">♥</span>
+            <span>برای مامانم</span>
+        </div>
+
+        <button class="theme-btn" id="themeBtn" aria-label="تغییر حالت">
+            🌙
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <span class="small-title">
+                    برای عزیزترین آدم زندگی من
+                </span>
+
+                <h1>
+                    مامان جان،
+                    <br>
+                    <span>تو قشنگ‌ترین قسمت زندگی منی ❤️</span>
+                </h1>
+
+                <p>
+                    شاید هیچ جمله‌ای نتونه اندازه‌ی زحماتی که برای من کشیدی
+                    رو جبران کنه، اما این گوشه‌ی کوچیک رو ساختم تا همیشه
+                    بخشی از خاطرات قشنگمون کنار هم بمونه.
+                </p>
+
+                <a href="#gallery" class="main-btn">
+                    دیدن خاطرات
+                    <span>↓</span>
+                </a>
+
+            </div>
+
+            <div class="hero-card">
+
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <span>❤️</span>
+                        <p>عکس مورد علاقه‌ات را اینجا قرار بده</p>
+                    </div>
+                </div>
+
+                <div class="hero-card-text">
+                    <strong>یک دنیا دوستت دارم</strong>
+                    <span>مامان عزیزم 🌷</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Message -->
+        <section class="message-section">
+
+            <div class="section-title">
+
+                <span>🌸</span>
+
+                <h2>
+                    چند کلمه از ته قلبم
+                </h2>
+
+                <p>
+                    چیزهایی که شاید همیشه فرصت گفتنشون رو نداشته باشم...
+                </p>
+
+            </div>
+
+
+            <div class="message-card">
+
+                <div class="quote">“</div>
+
+                <p id="mainMessage">
+                    مامان...
+                    <br><br>
+                    ممنونم که همیشه کنارم بودی.
+                    ممنونم برای تمام شب‌هایی که بیدار موندی،
+                    برای تمام نگرانی‌هات،
+                    برای تمام لبخندهایی که به من هدیه دادی
+                    و برای عشقی که هیچ‌وقت کم نشد.
+                    <br><br>
+                    دوستت دارم؛ بیشتر از چیزی که بتونم با کلمات بگم. ❤️
+                </p>
+
+                <div class="message-sign">
+                    با تمام عشق،
+                    <br>
+                    <strong>فرزندت ❤️</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Gallery -->
+        <section class="gallery-section" id="gallery">
+
+            <div class="section-title">
+
+                <span>📸</span>
+
+                <h2>
+                    گالری خاطرات ما
+                </h2>
+
+                <p>
+                    عکس‌های قشنگمون رو اینجا نگه می‌داریم.
+                </p>
+
+            </div>
+
+
+            <div class="upload-area">
+
+                <label for="photoInput" class="upload-btn">
+
+                    <span class="upload-icon">＋</span>
+
+                    <span>
+                        اضافه کردن عکس
+                    </span>
+
+                </label>
+
+                <input
+                    type="file"
+                    id="photoInput"
+                    accept="image/*"
+                    multiple
+                    hidden
+                >
+
+                <p>
+                    می‌تونی چند عکس را همزمان انتخاب کنی
+                </p>
+
+            </div>
+
+
+            <div id="emptyGallery" class="empty-gallery">
+
+                <div class="empty-icon">
+                    📷
+                </div>
+
+                <h3>
+                    هنوز خاطره‌ای اضافه نکردی
+                </h3>
+
+                <p>
+                    اولین عکس قشنگتون رو اضافه کن ❤️
+                </p>
+
+            </div>
+
+
+            <div id="galleryGrid" class="gallery-grid"></div>
+
+        </section>
+
+
+        <!-- Love cards -->
+        <section class="love-section">
+
+            <div class="section-title">
+
+                <span>💗</span>
+
+                <h2>
+                    مامان یعنی...
+                </h2>
+
+            </div>
+
+
+            <div class="love-grid">
+
+                <div class="love-card">
+                    <div>🤗</div>
+                    <h3>آغوش امن</h3>
+                    <p>
+                        جایی که همیشه می‌شود به آن پناه برد.
+                    </p>
+                </div>
+
+                <div class="love-card">
+                    <div>🌷</div>
+                    <h3>عشق بی‌قید و شرط</h3>
+                    <p>
+                        عشقی که هیچ وقت منتظر چیزی در مقابلش نیست.
+                    </p>
+                </div>
+
+                <div class="love-card">
+                    <div>🏡</div>
+                    <h3>خانه</h3>
+                    <p>
+                        خانه فقط یک جا نیست؛ گاهی یک نفر است.
+                    </p>
+                </div>
+
+                <div class="love-card">
+                    <div>❤️</div>
+                    <h3>همیشه کنارم</h3>
+                    <p>
+                        حتی وقتی همه می‌روند، مامان می‌ماند.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Memories -->
+        <section class="memory-section">
+
+            <div class="section-title">
+
+                <span>✨</span>
+
+                <h2>
+                    یک یادداشت برای مامان
+                </h2>
+
+                <p>
+                    هر چیزی که دلت می‌خواهد برایش بنویس.
+                </p>
+
+            </div>
+
+
+            <div class="note-box">
+
+                <textarea
+                    id="noteInput"
+                    placeholder="مثلاً: مامان جان، یادته اون روز با هم رفتیم... ❤️"
+                ></textarea>
+
+                <div class="note-footer">
+
+                    <span id="saveStatus">
+                        یادداشت ذخیره نشده
+                    </span>
+
+                    <button id="saveNote" class="save-btn">
+                        ذخیره یادداشت ❤️
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+
+            <div class="footer-heart">
+                ♥
+            </div>
+
+            <h2>
+                برای مامانی که تکرار نشدنیه
+            </h2>
+
+            <p>
+                ساخته شده با عشق ❤️
+            </p>
+
+            <span class="footer-year">
+                2026
+            </span>
+
+        </footer>
+
+    </main>
+
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+
+        <button id="closeModal" class="close-modal">
+            ×
+        </button>
+
+        <button id="prevImage" class="modal-nav prev">
+            ‹
+        </button>
+
+        <img id="modalImage" src="" alt="عکس خاطره">
+
+        <button id="nextImage" class="modal-nav next">
+            ›
+        </button>
+
+        <div class="modal-bottom">
+
+            <span id="imageCounter"></span>
+
+            <button id="deleteImage" class="delete-btn">
+                🗑 حذف عکس
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
